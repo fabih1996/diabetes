@@ -5,7 +5,7 @@ warnings.filterwarnings("ignore")
 
 
 from joblib import load
-model=load("ultimate_model.joblib")
+model=load("ultimate.joblib")
 
 def insert_data(): 
 	genere = st.selectbox('Genere: ',('Maschio', 'Femmina')) #SESSO
